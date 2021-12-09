@@ -8,11 +8,12 @@
 ## JUnit
 ## Swagger
 
-Para executar dynamo: 
-
+Para executar o dynamo, abra um prompt de comando na pasta deste e digite: 
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
-* Talvez seja necessário acesso de admnistrador/superusuário
- 
+Obs.: Talvez seja necessário acesso de admnistrador/superusuário
+
+Para acessar a tabela, digite no prompt de comando:
 aws dynamodb list-tables --endpoint-url http://localhost:8000
 
-swagger: http://localhost:8080/swagger-ui-heroes-reactive-api.html
+A interface Swagger pode ser acessada no navegador com este endereço:
+http://localhost:8080/swagger-ui-heroes-reactive-api.html
