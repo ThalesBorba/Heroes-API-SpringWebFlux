@@ -12,7 +12,7 @@
 
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 
-Obs.: Talvez seja necessário acesso de admnistrador/superusuário
+Obs.: Talvez seja necessário acesso de administrador/superusuário
 
 ## Para acessar a tabela, digite no prompt de comando:
 
