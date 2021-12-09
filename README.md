@@ -11,6 +11,7 @@
 Para executar dynamo: 
 
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+* Talvez seja necessário acesso de admnistrador/superusuário
  
 aws dynamodb list-tables --endpoint-url http://localhost:8000
 
