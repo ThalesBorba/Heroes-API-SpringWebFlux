@@ -9,6 +9,7 @@
 ## Swagger
 
 Para executar o dynamo, abra um prompt de comando na pasta deste e digite: 
+
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 Obs.: Talvez seja necessário acesso de admnistrador/superusuário
 
