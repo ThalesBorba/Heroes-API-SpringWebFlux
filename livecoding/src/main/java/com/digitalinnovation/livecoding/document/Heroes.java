@@ -28,9 +28,16 @@ public class Heroes {
   @DynamoDBAttribute (attributeName = "universe")
   private String universe;
 
-  @DynamoDBAttribute (attributeName = "films")
-  private int films;
+  @DynamoDBAttribute (attributeName = "strength")
+  private int strength;
 
+  @DynamoDBAttribute (attributeName = "magic")
+  private int magic;
 
+  @DynamoDBAttribute (attributeName = "speed")
+  private int speed;
+
+  @DynamoDBAttribute (attributeName = "intelligence")
+  private int intelligence;
 }
 
